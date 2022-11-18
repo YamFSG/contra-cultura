@@ -1,0 +1,124 @@
+@font-face {
+  font-family: spartan;
+  src: url(fontes/league-spartan-regular.ttf);
+}
+@font-face {
+  font-family: Lastica;
+  src: url(fontes/FontsFree-Net-Lastica.ttf);
+}
+@font-face {
+  font-family: glacial;
+  src: url(fontes/GlacialIndifference-Regular.otf);
+}
+@font-face {
+  font-family: computer;
+  src: url(fontes/Computer\ says\ no.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #E9E9E9;
+}
+
+/*header*/
+/*nav*/
+
+a{
+  font-size: 25px;
+  font-family: computer;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  opacity: 0.7;
+}
+
+td{
+  padding: 7px;
+  border: 2px solid;
+  text-align: center;
+}
+
+.navbar{
+  margin-top: 20px;
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+/*nav*/
+/*header*/
+/*body*/
+/*TÍTULO*/
+
+.caixa{ /*organizando as divs pra nao me perder*/
+  display: inline-block;
+}
+
+.caixa-dois{
+  float: right;
+
+}
+
+.contra{ /*DIV-UM : contra*/
+  font-family: lastica;
+  margin-left: 35%;
+  letter-spacing: 8px;
+  margin-top: 7%;
+  font-size: 11vh;
+}
+
+.introducao{
+  margin-top: 15%;
+  margin-left: 42%;
+  text-align: justify;
+  width: 400px;
+  font-family: glacial;
+}
+
+.hr-intro{ /*linha depois do texto*/
+  border-top: 5px solid rgb(0, 0, 0);
+  float: left;
+  width: 37%;
+  position: absolute;
+  margin-left: 12%;
+  margin-top: 16vh;
+}
+
+.cultura{ /*DIV-DOIS : cultura*/
+  margin-top: 6%;
+  margin-left: 5%;
+  font-family: lastica;
+  letter-spacing: 8px;
+  font-size: 11vh;
+}
+
+.caixa-dois img{ /*DIV-DOIS : imagem-punk*/
+  margin-top: 2%;
+  margin-right: 24vh;
+  width: 550px;
+  -webkit-box-shadow: 20px 20px rgb(0, 0, 0);
+		-moz-box-shadow:    20px 20px rgb(0, 0, 0);
+		box-shadow:         20px 20px rgb(0, 0, 0);
+	}
+
+/*TÍTULO*/
+
+/*CONTEXTO HISTORICO*/
+.contextohist{
+  position: absolute;
+  margin-top: 14%;
+  background-color: black;
+  width: 100%;
+}
+
+.aa{
+  margin-top: 10%;
+  width: 200px;
+  height: 600px;
+  background-color: beige;
+}
+/*CONTEXTO HISTORICO*/
+/*body*/

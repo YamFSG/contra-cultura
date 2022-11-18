@@ -1,0 +1,73 @@
+@font-face {
+  font-family: spartan;
+  src: url(fontes/league-spartan-regular.ttf);
+}
+@font-face {
+  font-family: Lastica;
+  src: url(fontes/FontsFree-Net-Lastica.ttf);
+}
+@font-face {
+  font-family: glacial;
+  src: url(fontes/GlacialIndifference-Regular.otf);
+}
+@font-face {
+  font-family: computer;
+  src: url(fontes/Computer\ says\ no.ttf);
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #E9E9E9;
+}
+
+/*header*/
+/*nav*/
+a{
+  font-family: computer;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  opacity: 0.7;
+}
+
+td{
+  padding: 7px;
+  border: 2px solid;
+  text-align: center;
+}
+
+.navbar{
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+/*nav*/
+/*header*/
+
+/*body*/
+/*1969*/
+.ano{ /*aqui é o fundo preto*/
+  margin-left: 10%;
+  width: 13%;
+  height: 94vh;
+  background-color: black;
+  position: absolute;
+}
+
+.numeros{ /*aqui é o numero em si*/
+  margin-top: 12px;
+  margin-left: 3%;
+  font-family: spartan;
+  font-size: 1500%;
+  color:#E9E9E9;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  writing-mode: vertical-lr;
+}
+/*1969*/
+/*body*/
