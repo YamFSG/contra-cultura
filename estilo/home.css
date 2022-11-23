@@ -14,10 +14,7 @@
   font-family: computer;
   src: url(fontes/Computer\ says\ no.ttf);
 }
-@font-face {
-  font-family: tsblock;
-  src: url(fontes/TS\ Block\ Bold.ttf);
-}
+
 
 * {
   padding: 0;
@@ -27,16 +24,16 @@
 
 /*header*/
 /*nav*/
-
 a{
-  font-size: 25px;
   font-family: computer;
+  font-size: 25px;
   text-decoration: none;
   color: black;
 }
 
-a:hover{
-  opacity: 0.7;
+
+.navbar td:hover{
+  background-color: black;
 }
 
 td{
@@ -53,101 +50,53 @@ td{
 }
 /*nav*/
 /*header*/
+
 /*body*/
-/*TÍTULO*/
-
-.caixa{ /*organizando as divs pra nao me perder*/
-  display: inline-block;
-}
-
-.caixa-dois{ /*imagem dos punks e contra*/
-  float: right;
-
-}
-
-.contra{ /*DIV-UM : contra*/
-  font-family: lastica;
-  margin-left: 35%;
-  letter-spacing: 8px;
-  margin-top: 7%;
-  font-size: 11vh;
-}
-
-.introducao{
-  margin-top: 15%;
-  margin-left: 42%;
-  text-align: justify;
-  width: 400px;
-  font-family: glacial;
-}
-
-.hr-intro{ /*linha depois do texto*/
-  border-top: 5px solid rgb(0, 0, 0);
+.contracult{
   float: left;
-  width: 39%;
   position: absolute;
-  margin-left: 9%;
-  margin-top: 18vh;
+  margin-left: 7.2%;
+  background-color: #e9e9e900;
 }
 
-.cultura{ /*DIV-DOIS : cultura*/
-  margin-top: 6%;
-  margin-left: 5%;
-  font-family: lastica;
-  letter-spacing: 8px;
-  font-size: 11vh;
+.contracult2{
+  float: left;
+  position: absolute;
+  margin-left: 28.5%;
 }
 
-.caixa-dois img{ /*DIV-DOIS : imagem-punk*/
-  margin-top: 2%;
-  margin-right: 26vh;
-  width: 550px;
-  -webkit-box-shadow: 20px 20px rgb(0, 0, 0);
-		-moz-box-shadow:    20px 20px rgb(0, 0, 0);
-		box-shadow:         20px 20px rgb(0, 0, 0);
-	}
+.um{
+  margin-top: 30px;
+}
 
-/*TÍTULO*/
-
-/*CONTEXTO HISTORICO*/
-/*---GUERRA FRIA---*/
-.guerrafria{ /*section preta*/
-  margin-top: 14%;
+.hist{
+  margin-right: 13%;
   position: relative;
-  height: 95vh;
-  width: 100%;
-  background-color: black;
-}
-
-.artfrio { /*div do que ta escrito*/
-  margin-top: 6%;
-  margin-left: 9%;
-  width: 59%;
-  float: left;
-  background-color: #000000;
-  font-family: glacial;
-  color: #E9E9E9;
-}
-
-.lua{
-  float: left;
-  width: 230px;
-  background-color: #000000;
-  margin-left: 2%;
-  margin-top: 2.5%;
-}
-
-
-.subguerra{
-  margin-right: 9%;
-  margin-top: 6%;
-  font-size: 40px;
+  height: 450px;
+  width: 350px;
+  background-color: rgb(0, 0, 0);
   float: right;
-  writing-mode: vertical-lr;
-  background-color: #000000;
-  color: #E9E9E9;
-  font-family: tsblock;
 }
-/*---GUERRA FRIA---*/
-/*CONTEXTO HISTORICO*/
+
+.minigalera{
+  width: 300px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.punk{
+  position: relative;
+  height: 450px;
+  width: 350px;
+  background-color: rgb(0, 0, 0);
+  margin-right: 30px;
+  float: right;
+}
+
+.minipunk{
+  width: 300px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
 /*body*/
