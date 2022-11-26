@@ -24,21 +24,21 @@
 
 /*header*/
 /*nav*/
-a{
-  font-family: computer;
+td{
   font-size: 25px;
+  font-family: computer;
   text-decoration: none;
   color: black;
 }
 
-
-.navbar td:hover{
-  background-color: black;
+td:hover{
+  background-color: #000000;
+  color: #E9E9E9;
 }
 
 td{
   padding: 7px;
-  border: 2px solid;
+  border: 2px solid black;
   text-align: center;
 }
 
@@ -46,12 +46,14 @@ td{
   table-layout: fixed;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
   width: 80%;
 }
 /*nav*/
 /*header*/
 
 /*body*/
+/*imagens e partes pretas 1*/
 .contracult{
   float: left;
   position: absolute;
@@ -98,5 +100,28 @@ td{
   margin-left: 25px;
   margin-top: 25px;
 }
+/*textos e botões da parte 1*/
+.hist p{
+  background-color: #000000;
+  color: #E9E9E9;
+  text-align: justify;
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-family: glacial;
+  font-size: 14px;
+}
 
+.punk p{
+  background-color: #000000;
+  color: #E9E9E9;
+  text-align: justify;
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-family: glacial;
+  font-size: 14px;
+}
+/*textos e botões da parte 1*/
+/*imagens e partes pretas 1*/
 /*body*/

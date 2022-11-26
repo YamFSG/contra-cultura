@@ -28,15 +28,16 @@
 /*header*/
 /*nav*/
 
-a{
+td{
   font-size: 25px;
   font-family: computer;
   text-decoration: none;
   color: black;
 }
 
-a:hover{
-  opacity: 0.7;
+td:hover{
+  background-color: #000000;
+  color: #E9E9E9;
 }
 
 td{
@@ -49,6 +50,7 @@ td{
   table-layout: fixed;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
   width: 80%;
 }
 /*nav*/
@@ -161,9 +163,9 @@ td{
 /*lado direito*/
 .luaetitulo{
   position: absolute;
-  width: 50vh;
+  width: 55vh;
   margin-left: 70%;
-  margin-top: 6.7%;
+  margin-top: 5%;
   background-color: black;
 }
 
