@@ -1,0 +1,112 @@
+@font-face {
+  font-family: spartan;
+  src: url(fontes/league-spartan-regular.ttf);
+}
+@font-face {
+  font-family: Lastica;
+  src: url(fontes/FontsFree-Net-Lastica.ttf);
+}
+@font-face {
+  font-family: glacial;
+  src: url(fontes/GlacialIndifference-Regular.otf);
+}
+@font-face {
+  font-family: computer;
+  src: url(fontes/Computer\ says\ no.ttf);
+}
+@font-face {
+  font-family: tsblock;
+  src: url(fontes/TS\ Block\ Bold.ttf);
+}
+@font-face {
+  font-family: bariska;
+  src: url(fontes/brasika-display.otf);
+}
+@font-face {
+  font-family: barbra;
+  src: url(fontes/Barbra-High.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #E9E9E9;
+}
+
+/*header*/
+/*nav*/
+.menudrop{
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.menudrop ul{
+  display: flex;
+}
+
+.menudrop ul li{
+  width: 150px;
+  height: 35px;
+  line-height: 35px;
+  list-style: none;
+  border: 2px solid black;
+  position: relative;
+  margin-right: 1px;
+}
+
+.menudrop li a{ 
+  font-family: computer;
+  font-size: 23px;
+  text-align: center;
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  display:block;
+}
+
+.menudrop li a:hover{
+background:rgb(0, 0, 0);
+color:#fff;
+}
+
+.menudrop ul ul {
+  display: none;
+  position: absolute;
+  margin-top: 3px;
+}
+
+.menudrop ul li:hover ul {
+  display: block;
+}
+
+.menu ul ul li a {
+  display: block;
+}
+/*nav*/
+.titulo h2{
+  font-size: 50px;
+  margin-top: 40px;
+  margin-left: 5%;
+  font-family: tsblock;
+}
+
+.titulo hr{
+  margin-left: 5%;
+  border: 1px solid black;
+  width: 90%;
+}
+/*header*/
+
+/*body*/
+/*intro*/
+.introducao img{
+  margin-top: 2%;
+  margin-left: 5.7%;
+  width: 85vh;
+}
+
+/*intro*/
+/*body*/
