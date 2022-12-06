@@ -288,7 +288,7 @@ color:#fff;
 }
 
 .laranjaclaro2 {
-  margin-top: 5vh;
+  margin-top: 13vh;
   float: left;
   width: 86vh;
   height: 370px;
@@ -309,18 +309,12 @@ color:#fff;
   height: 370px;
 }
 
-.sentadosimg img{
-  margin-top: 25px;
-  margin-left: 30px;
-  width: 70vh;
-}
-
 .texto-doisp{ /*texto 1*/
   margin-left: 8%;
   position: absolute;
   width: 98vh;
   font-family: glacial;
-  margin-top: 12%;
+  margin-top: 19%;
   text-align: justify;
   line-height: 22px;
 }
@@ -328,7 +322,7 @@ color:#fff;
 .texto-dois{
   position: relative;
   margin-top: 10vh;
-  margin-left: 50%;
+  margin-left: 43%;
 }
 
 /*segunda imagem*/
@@ -409,9 +403,8 @@ color:#fff;
   position: absolute;
   width: 98vh;
   font-family: glacial;
-  margin-top: 60px;
+  margin-top: 7%;
   text-align: justify;
-  line-height: 22px;
 }
 
 /*primeira imagem*/
@@ -437,7 +430,7 @@ color:#fff;
 }
 
 .laranjaclaroA{
-  margin-top: 30px;
+  margin-top: 3.5%;
   float: right;
   width: 86vh;
   height: 370px;
@@ -451,7 +444,8 @@ color:#fff;
 
 /*segunda imagem*/
 .laranjaclaroB {
-  margin-top: 5vh;
+  margin-top: 12%;
+  position: absolute;
   float: left;
   width: 86vh;
   height: 370px;
@@ -459,6 +453,7 @@ color:#fff;
 }
 
 .laranjaB{ /*parte laranja ta dentro da laranja claro2*/
+  position: relative;
   float: left;
   width: 83vh;
   height: 370px;
@@ -466,6 +461,7 @@ color:#fff;
 }
 
 .sentadosimg{ /*parte preta do hippie 2, ela ta dentro da laranja*/
+  position: relative;
   float: left;
   background-color: #000000;
   width: 80vh;
@@ -473,33 +469,46 @@ color:#fff;
 }
 
 .sentadosimg img{
+  position: relative;
   margin-top: 25px;
   margin-left: 30px;
   width: 70vh;
 }
 
-.texto-dois{
+.texto-doisaa{
+  margin-right: 5%;
+  float: right;
+  height: 25vh;
+  width: 98vh;
   margin-left: 42%;
-  margin-top: 20vh;
+  color: #000000;
 }
+
+.textoaa{
+  text-align: justify;
+  font-family: glacial;
+  margin-top: 10%;
+}
+
+
 /*conteudo*/
 /*---WOODSTOCK---*/
-/*PUNK PORRA*/
+/*PUNK PORRA*/ /*PUNK PORRA*/ /*PUNK PUNK PUNK PUNK PUNK PUNK PUNK PUNK PUNK*/
 /*parte pretaaaaa*/
 .pretopunk{
   margin-top: 125vh;
   position: absolute;
   width: 100%;
-  height: 100vh;
+  height: 125vh;
   background-color: #000000;
 }
 /*parte pretaaaaa*/
-/*imagem e titulo e texto do lado*/
+/*imagem e titulo e texto do lado*/ /*imagem e titulo e texto do lado*/
 .imagemetitulo{
   margin-top: 1%;
   position: absolute;
   margin-left: 5%;
-  background-color: #000000;
+  background-color: #0000007e;
 }
 
 .imagemetitulo img{
@@ -510,27 +519,74 @@ color:#fff;
 }
 
 .imagemetitulo h2{
-  margin-left: 6%;
-  font-size: 70px;
-  margin-top: 20px;
+  font-size: 80px;
+  margin-top: 5px;
   position: absolute;
   font-family: doctor;
   background-color: #00000000;
-  color: #E9E9E9;
+  color: #c10a0a;
   float: left;
 }
 
+.imagemetitulo hr{
+  margin-right: 10%;
+  margin-top: 3%;
+  float: right;
+  width: 450px;
+}
+
 .imagemetitulo p{
-  margin-top: 35px;
+  position: relative;
+  margin-top: 3%;
   font-family: glacial;
   text-align: justify;
-  margin-left: 40px;
+  margin-right: 5%;
   float: right;
   width: 85vh;
   color: #E9E9E9;
   background-color: #000000;
 }
-/*imagem e titulo e texto do lado*/
-/*PUNK PORRA*/
+
+.guitarrapiuiuiu{
+  margin-top: 50vh;
+  position: relative;
+  margin-left: 5%;
+  background-color: #0000007e;
+}
+
+.guitarrapiuiuiu p{
+  margin-left: 1.5%;
+  position: absolute;
+  margin-top: 13%;
+  font-family: glacial;
+  text-align: justify;
+  width: 85vh;
+  color: #E9E9E9;
+  background-color: #000000;
+}
+
+.guitarraecasal{
+  margin-top: 2%;
+  margin-right: 5%;
+  background-color: #00000000;
+  float: right;
+}
+
+.guitar{
+  margin-left: 7%;
+  background-color: #00000000;
+  position: absolute;
+  width: 400px;
+}
+
+.casal{
+  margin-top: 50px;
+  border: 4px solid #E9E9E9;
+  width: 85vh;
+  float: left;
+  background-color: #00000000;
+}
+/*imagem e titulo e texto do lado*/ /*imagem e titulo e texto do lado*/
+/*PUNK PORRA*/ /*PUNK PUNK PUNK PUNK PUNK PUNK PUNK PUNK PUNK*/
 /*CONTEXTO HISTORICO*/
 /*body*/
